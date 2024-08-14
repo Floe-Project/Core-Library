@@ -5,9 +5,13 @@ local library = floe.new_library({
     name = "Core",
     tagline = "Core files for Floe",
     author = "Floe",
-    url = "https://github.com/Floe-Synth/Core-Library",
+    url = "https://github.com/Floe-Project/Core-Library",
+    description =
+    "This is the core set of impulse responses for Floe's convolution reverb effect. It's entirely free and in the public domain.",
     minor_version = 1,
 })
+
+-- TODO: add impluse responses normalised to RMS
 
 local irs = {
 }
